@@ -1,0 +1,15 @@
+html {
+    font-size: 120%;
+}
+body {
+    font-family: $fontStack;
+}
+h1 {
+    color: $priBrandColor;
+}
+p {
+    font-size: $fsize-lg;
+    a {
+        color: $secBrandColor;
+    }
+}

@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "../scss/styles.css",
+	"sources": [
+		"../scss/styles.scss",
+		"../scss/partials/_variables.scss",
+		"../scss/partials/_reset.scss",
+		"../scss/partials/_typography.scss",
+		"../scss/partials/_layout.scss"
+	],
+	"sourcesContent": [
+		"@import \"partials/variables.scss\";\r\n@import \"partials/reset.scss\";\r\n@import \"partials/typography.scss\";\r\n@import \"partials/layout.scss\";\r\n\r\n\r\n\r\n",
+		"$priBrandColor: #1f02f7;\r\n$fontStack: Helvetica, Arlial, sans-serif;\r\n$fsize-lg: 1.2rem;\r\n//$boxBorder: 1px solid orange;\r\n$secBrandColor: orange;",
+		"",
+		"html {\r\n    font-size: 120%;\r\n}\r\nbody {\r\n    font-family: $fontStack;\r\n}\r\nh1 {\r\n    color: $priBrandColor;\r\n}\r\np {\r\n    font-size: $fsize-lg;\r\n    a {\r\n        color: $secBrandColor;\r\n    }\r\n}",
+		".box {\r\n    background-color: $secBrandColor;\r\n    border: 1px solid orange;\r\n    border-radius: 10px;\r\n}"
+	],
+	"mappings": ";AGAA,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAK;CACnB;;;AACD,AAAA,IAAI,CAAC;EACD,WAAW,EFHH,SAAS,EAAE,MAAM,EAAE,UAAU;CEIxC;;;AACD,AAAA,EAAE,CAAC;EACC,KAAK,EFPO,OAAO;CEQtB;;;AACD,AAAA,CAAC,CAAC;EACE,SAAS,EFRF,MAAM;CEYhB;;;AALD,AAEI,CAFH,CAEG,CAAC,CAAC;EACE,KAAK,EFRG,MAAM;CESjB;;;ACbL,AAAA,IAAI,CAAC;EACD,gBAAgB,EHGJ,MAAM;EGFlB,MAAM,EAAE,gBAAiB;EACzB,aAAa,EAAE,IAAK;CACvB",
+	"names": []
+}

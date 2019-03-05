@@ -1,0 +1,495 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /*    flex-wrap: wrap;*/
+    background-color: #e0f3dd;
+    line-height: inherit;
+    font-size: 100%;
+    width: 98%;
+}
+
+nav {
+    position: static;
+    width: 98%;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+    background-color: white;
+    margin: auto;
+}
+
+nav li {
+    padding: 10px 5px;
+
+}
+
+nav li a {}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.container-1 section {
+    border: 5px #ccc solid;
+
+    margin: 10px 30px;
+    background-color: white;
+}
+
+.container-1 p {
+    flex-basis: 20%;
+}
+
+#about_Me p {
+    text-align: justify;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 33px;
+}
+
+img[src*="profile"] {
+    float: left;
+    shape-outside: url("profile_pic-removebg.png");
+    shape-margin: 10px;
+    margin-right: 10px;
+}
+
+
+@media only screen and (min-width: 780px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        /*    flex-wrap: wrap;*/
+        background-color: #e0f3dd;
+        line-height: inherit;
+        font-size: 100%;
+        width: 98%;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    nav {
+        position: static;
+        width: 100%
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /*    text-align: center;*/
+        list-style: none;
+        background-color: white;
+        margin: auto;
+        padding-top: 15px;
+        font-size: 1.2em;
+    }
+
+    nav li a:link {
+        text-decoration: none;
+        /*    color: white; */
+        /* Currently working on the nav */
+    }
+
+    nav li a:hover {
+        color: green;
+    }
+
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container-1 section {
+        border: 5px #ccc solid;
+        justify-content: space-between;
+        margin: 10px 30px;
+        /*    background-image: url(../../Support_Files/pictures/background_template2.jpg);*/
+    }
+
+    .container-1 p {
+        flex-basis: 20%;
+    }
+
+    #about_Me p {
+        text-align: justify;
+        margin: 0 16px;
+        font-size: 1.2em;
+        line-height: 50px;
+    }
+
+    img[src*="profile"] {
+        float: left;
+        shape-outside: url("profile_pic-removebg.png");
+        shape-margin: 10px;
+        margin-right: 10px;
+    }
+
+    h1 {
+        padding-bottom: 10px;
+        margin-top: 5px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #projects p {
+        font-size: 1.5em;
+        line-height: 50px;
+    }
+
+    #resources p {
+        font-size: 1.5em;
+        line-height: 50px;
+    }
+
+    #about_Me {
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    #projects {
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    #projects ul {
+        line-height: 2;
+    }
+
+    #resources {
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    #resources ul {
+        line-height: 2;
+    }
+
+    #contactinfo {
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    #contactinfo ul {
+        line-height: 2;
+    }
+
+    footer {
+        position: static;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        padding: 0px 0px;
+        width: 100%;
+        border: 1px #ccc solid;
+        background-color: #9D7DB8;
+    }
+}
+
+/*
+@media only screen and (min-width: 480px){
+    
+   body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e0f3dd;
+    line-height: inherit;
+    font-size: 100%;
+    width: 98%;
+    }
+    
+    p {
+        flex-direction: row;
+        padding: 10px;
+        line-height: 25px
+    }
+    h2 {
+        padding: 5px;
+        padding-top: 10px;
+    }
+    
+    #bus_Name {
+        color: white;
+        background-color: #9D7DB8;
+        text-align: center;
+        width: 100vw;
+    }
+*/
+
+
+/* .nav ul {
+        display: flex;
+        flex-direction: row;
+        font-size: 1em;
+       flex-wrap: wrap;
+        justify-content: flex-start;
+        list-style: none;
+        padding-left: 2px;
+    }
+    
+    .nav li {
+        padding: 10px;
+        text-align: center;
+       border-style: solid;
+        
+    } */
+}
+
+@media only screen and (min-width: 760px) {}
+
+
+
+
+/*
+body {
+    font-size: 100%;
+    line-height: normal;
+    background-color: darkgrey;
+}
+p {
+    font-size: 1.4em;
+   width: 70%;
+    padding: 20px;
+    display: flex;
+    
+}
+li {
+    font-size: 1.5em;
+    padding: 15px 2px 2px 2px;
+}
+h1 {
+    color: #f0ecec;
+    font-size: 2em;
+}
+h2 {
+    padding-left: 15px;
+    font-size: 2em;
+}
+
+.nav {
+    display: flex;
+    width: 30vw;
+    padding: 2px 20px 0px 0px;
+    margin: 15px;
+    border: 2px black solid;
+    background-color: #f8f8f8;
+    text-decoration: underline;
+}
+#bus_Name {
+    column-span: all;
+	font-size: 100%;
+    background-color: #060607;
+    text-align: center;
+    text-decoration-color: white;
+    
+}
+#bus_Name ul{
+    display: inline-block;
+}
+#about_Me {
+    display: flex;
+    padding-left: 1.5em;
+    background-color: #fafafa;
+    margin: 15px;
+    border: 2px black solid;
+    
+}
+#about_Me h2{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 15px;
+    font-size: 2em;
+    padding: 22px 2px 2px 0px;
+    text-align: center;
+}
+#projects {
+    display: flex;
+    width: 90vw;
+    background-color: white;
+    border: 2px black solid;
+    margin-left: 210px;
+}
+#resources {
+    background-color: white;
+    border: 2px black solid;
+    width: 81.8%;
+    margin-left: 210px;
+    margin-top: 15px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0px 0px;
+    text-align: center;
+    background-color: grey;
+    }
+
+
+@media only screen and (min-width: 320px) {
+    
+    body {
+        margin: 0px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        display: grid;
+    }
+    p {
+        font-size: .8em;
+    }
+    #container {
+        display: grid;
+    }
+    #bus_Name {
+        width: 100%;
+        margin-right: 0px;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    .nav {
+        font-size: 2rem;
+        height: 12em;
+    }
+    #about_Me {
+        word-wrap: normal;
+        text-align: left;
+        line-height: 1.5;
+        font-size: 2em;
+        overflow: hidden
+    }
+    #about_Me p{
+        margin-top: 125px;
+        width: 100%;
+        float: right;
+        font-size: 1.4em;
+        line-height: 2;
+    }
+    #about_Me h2 {
+        height: 3em;
+        text-align: center;
+    }
+    #projects {
+        margin-left: 15px;
+        padding-left: 0px;
+        width: 92%;
+    }
+    #projects h2 {
+        font-size: 4em
+    }
+    #projects p{
+        font-size: 2.5em;
+    }
+    #projects ul {
+        font-size: 1.8em;
+    }
+    #resources {
+        margin-left: 15px;
+        width: 92%;
+    }
+    #resources h2 {
+        font-size: 4em
+    }
+    #resources p{
+        font-size: 2.5em;
+    }
+    #resources ul {
+        font-size: 1.8em;
+    }
+}
+@media only screen and (min-width: 780px) {
+    h1 {
+        font-size: 4em;
+    }
+    #container {
+    display: flex;
+}
+    #about_Me p{
+        font-size: .9em;
+        line-height: 1.5;
+    }
+    .nav {
+        font-size: 1.3em;
+        height: 20em;
+    }
+    #projects {
+    width: 79.8%;
+    background-color: white;
+    border: 2px black solid;
+    margin-left: 235px;
+}
+    #projects p{
+        font-size: 1.8em;
+        line-height: 1.7;
+    }
+    #resources {
+        margin-left: 235px;
+        width: 79.8%;
+    }
+    #resources p{
+        font-size: 1.8em;
+        line-height: 1.7
+    }
+    
+}
+@media only screen and (min-width: 2000px) {
+    h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 3em;
+    }
+    .nav {
+        font-size: 2.2em;
+        line-height: 1.8;
+        height: 20em;
+    }
+    #about_Me h2 {
+        font-size: 2em;
+        margin-right: 1.3em;
+    }
+    #about_Me p {
+        font-size: 1em;
+        padding-left: 2em;
+        line-height: 2
+    }
+    #projects {
+        margin-left: 23em;
+        width: 85%
+    }
+    #projects p{
+        font-size: 2em;
+    }
+    #projects ul{
+        font-size: 1.4em;
+    }
+    #resources {
+        margin-left: 23em;
+        width: 85%
+    }
+    #resources p{
+        font-size: 2em;
+    }
+    #resources ul{
+        font-size: 1.4em;
+    }
+}
+*/

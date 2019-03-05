@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: url(VHB4OGLO4Q7QRPLZBPBYOZVP3U.jpg);
+    background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;   
+	align-items: center; /* Horizontal */
+
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: #ffffff;
+    font-size: 4em;
+    
+}
